@@ -9,10 +9,8 @@ Group:            Sciences/Mathematics
 License:          LGPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.2-5.tar.gz
-Requires:         R-methods 
-Requires:         R-methods 
+Requires:         R-methods
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods
-BuildRequires:    R-methods 
 
 %description
 A database interface (DBI) definition for communication between R and
