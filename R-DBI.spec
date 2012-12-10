@@ -9,8 +9,10 @@ Group:            Sciences/Mathematics
 License:          LGPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.2-5.tar.gz
-Requires:         R-methods
+Requires:         R-methods 
+Requires:         R-methods 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods
+BuildRequires:    R-methods 
 
 %description
 A database interface (DBI) definition for communication between R and
@@ -43,3 +45,15 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/Meta
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
+
+
+%changelog
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2_5-1
++ Revision: 774952
+- Update to latest version
+
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2_4-1
++ Revision: 774924
+- Import R-DBI
+- Import R-DBI
+
