@@ -14,6 +14,8 @@ Requires:         R-methods
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods
 BuildRequires:    R-methods 
 
+%define debug_package %{nil}
+
 %description
 A database interface (DBI) definition for communication between R and
 relational database management systems.  All classes in this package are
