@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.2_5
-Release:          2
+Version:          0.2.7
+Release:          1
 Summary:          R Database Interface
 Group:            Sciences/Mathematics
 License:          LGPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.2-5.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/DBI_0.2-7.tar.gz
 Requires:         R-methods 
 Requires:         R-methods 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods
@@ -58,4 +58,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 774924
 - Import R-DBI
 - Import R-DBI
+
 
