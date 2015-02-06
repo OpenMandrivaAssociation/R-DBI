@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.2.7
-Release:          1
+Release:          2
 Summary:          R Database Interface
 Group:            Sciences/Mathematics
 License:          LGPL (>= 2)
